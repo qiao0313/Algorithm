@@ -21,7 +21,7 @@ class Solution(object):
             if target - num in lookup:
                 return [lookup[target - num], i]
             lookup[num] = i
-            print(lookup)
+            #print(lookup)
         return []
 
 if __name__ == '__main__':
