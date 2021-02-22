@@ -1,2 +1,2 @@
 # LeetCode
-算法练习（Python和C++版本）。
+算法学习（Python和C++版本）。
