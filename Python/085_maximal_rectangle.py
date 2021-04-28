@@ -18,12 +18,14 @@ class Solution:
         res = 0
         m, n = len(matrix), len(matrix[0])
         heights = [0] * n
+        print(heights)
         for i in range(m):
             for j in range(n):
                 if matrix[i][j] == '0':
                     heights[j] = 0
                 else:
                     heights[j] = heights[j] + 1
+            print(heights)
             res = max(res, self.largestRectangleArea(heights))
         return res
 
